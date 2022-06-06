@@ -1,0 +1,47 @@
+.menuBar {
+    height: 26px;
+    background-color: var(--menu-bar-color);
+    width: 100%;
+    position: absolute;
+    color: var(--text-color);
+    align-items: center;
+    display: flex;
+    top:0;
+    padding-left: 8px;
+    z-index: 999;
+}
+
+.appItems {
+    display: flex;
+}
+
+.menuItemButton {
+    color: var(--text-color);
+    padding:0;
+    margin:0;
+    background: none;
+    border: none;
+    font-weight: 600;
+
+}
+
+.menuItemButton p {
+    margin:0;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.menuActive:hover {
+    background-color: var(--menu-bar-hover-color);
+    border-radius: 5px;
+}
+
+.actionMenu {
+    position: absolute;
+    top: 15px;
+}
