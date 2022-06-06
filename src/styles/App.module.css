@@ -7,6 +7,7 @@
   -o-background-size: cover;
   background-size: cover;
   transition-duration: .2s;
+  padding:10px;
 }
 
 .blurred {
@@ -15,7 +16,7 @@
 }
 
 .content {
-  padding: 50px;
   font-size: large;
   color: white;
+  padding:50px;
 }
