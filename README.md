@@ -1,30 +1,22 @@
 
 # OSX Menu Bar Solid
 
-The classic menu bar from OSX, now in SolidJS!
+The classic menu bar from OSX, now in SolidJS! This project serves as an implementation concept. This project is not a library and it is no longer maintained.
 
+https://github.com/Merkie/osx-menu-bar-solid/assets/18383101/61e76ec0-e4fd-475f-b77d-18eaa5f27347
 
+## Usage
 
-![Logo](https://i.ibb.co/hY3Kgqp/toolbar-gif.gif)
-
-
-## Deployment
-
-To deploy this project, navigate to the src folder and run
-
+Clone and install:
 ```bash
-npm i
+git clone https://github.com/Merkie/osx-menu-bar-solid && cd osx-menu-bar-solid && npm i
 ```
 
-then run
-
+Build and serve:
 ```bash
-npm run serve
+npm run build && npm run serve
 ```
 
- to serve.
-
- 
 ## Documentation
 
 You can either use this project as a boilerplate to create an app or you can manually add the ActionMenu, MenuBar, and MenuBarProvider components to your own app. Look at App.jsx for reference on how to use the MenuBarProvider. Configurations are also avaliable in the MenuBar.module.css file. 
@@ -37,7 +29,7 @@ Passing objects into the actionMenuData property adds actions to the category. E
 
 Much like the categories, action items can have sub-menus that are written much like action item objects, but they only have a text property.
 
-Example
+### Code Example:
 
 
 ```Javascript
